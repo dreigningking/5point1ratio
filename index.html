@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>5:1 Ratio — Empowering Halal Crypto Wealth</title>
+
+  <!-- Bootstrap CSS & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Brand style -->
+  <style>
+    :root{
+      --brand: #1e7a4a;      /* primary green */
+      --brand-700:#17613b;
+      --muted:#f6f8f7;
+    }
+    .btn-brand{ background:var(--brand); border-color:var(--brand); }
+    .btn-brand:hover{ background:var(--brand-700); border-color:var(--brand-700); }
+    .text-brand{ color:var(--brand)!important; }
+    .bg-brand-ghost{ background:rgba(30,122,74,.06); }
+    .shadow-soft{ box-shadow: 0 10px 30px rgba(0,0,0,.06); }
+    .rounded-2xl{ border-radius:1.25rem; }
+    .icon-pill{
+      width:56px;height:56px;border-radius:14px;
+      display:grid;place-items:center;background:var(--muted);
+    }
+    .step-arrow i{ font-size:1.25rem; }
+    .coins .coin{
+      border:1px solid #e9ecef;border-radius:1rem;padding:1rem .75rem;background:#fff;
+    }
+    .comparison .list-unstyled li{ margin-bottom:.35rem; }
+    .table-growth th, .table-growth td{ vertical-align:middle; }
+    /* Smooth anchor offset for fixed navbar */
+    section[id]{ scroll-margin-top: 100px; }
+  </style>
+</head>
+<body class="bg-white">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-semibold d-flex align-items-center gap-2" href="#">
+      <img src="media/1000968677.png" alt="5:1 Ratio" class="img-fluid" style="width: 50px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#how">How it Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#coins">Halal Coins</a></li>
+        <li class="nav-item"><a class="nav-link" href="#safety">Safety & Trust</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#growth">Growth</a></li>
+         <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+         <li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
+         <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+      </ul>
+      <div class="d-flex gap-2 ms-lg-3">
+        <a href="#cta" class="btn btn-brand text-white">Get Started</a>
+        <a href="#contact" class="btn btn-outline-success">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="py-5 py-lg-6 bg-brand-ghost">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-7">
+        <h1 class="display-5 fw-bold">Empowering Halal Crypto Wealth</h1>
+        <p class="lead text-secondary mb-4">Smart, transparent, and Shariah-compliant trading powered by AI—designed to protect capital and grow it responsibly.</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="#cta" class="btn btn-brand btn-lg text-white">Start Your Journey</a>
+          <a href="#how" class="btn btn-outline-success btn-lg">See How it Works</a>
+        </div>
+        <div class="d-flex gap-4 mt-4 text-secondary small">
+          <span><i class="bi bi-shield-check text-brand me-1"></i> Shariah-minded</span>
+          <span><i class="bi bi-lock text-brand me-1"></i> Fund safety first</span>
+          <span><i class="bi bi-cpu text-brand me-1"></i> AI-assisted</span>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="p-4 bg-white rounded-2xl shadow-soft">
+          <i class="bi bi-moon-stars fs-1 text-brand d-block mb-2" aria-hidden="true"></i>
+          <img src="media/1000968676.png" alt="Illustration of Shariah-compliant crypto trading" class="img-fluid rounded-2xl opacity-75" />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT / FEATURES -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">About 5:1 Ratio</h2>
+      <p class="text-secondary">We make halal, automated spot trading simple—without compromising values or safety.</p>
+    </div>
+
+    <div class="row g-3 g-lg-4">
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+          <div class="icon-pill mb-3"><i class="bi bi-robot fs-4 text-brand"></i></div>
+          <h6 class="mb-1">Automated Halal Trading</h6>
+          <p class="text-secondary small mb-0">AI-assisted entries & exits on screened spot pairs.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+          <div class="icon-pill mb-3"><i class="bi bi-shield-check fs-4 text-brand"></i></div>
+          <h6 class="mb-1">Risk-First Approach</h6>
+          <p class="text-secondary small mb-0">Position sizing, max-drawdown rules, defense before offense.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+          <div class="icon-pill mb-3"><i class="bi bi-people fs-4 text-brand"></i></div>
+          <h6 class="mb-1">Community & Support</h6>
+          <p class="text-secondary small mb-0">Guides, Q&A, and transparent reporting.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-6">
+        <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+          <div class="icon-pill mb-3"><i class="bi bi-repeat fs-4 text-brand"></i></div>
+          <h6 class="mb-1">Reinvest & Grow</h6>
+          <p class="text-secondary small mb-0">Optional compounding with clear controls.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="py-5">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-5">
+        <h2 class="fw-bold">How It Works</h2>
+        <p class="text-secondary">Connect your exchange safely, fund your spot wallet, let the bot trade screened halal pairs, and optionally reinvest profits.</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row text-center g-3 g-md-4">
+          <div class="col-6 col-md-3">
+            <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+              <div class="icon-pill mb-2"><i class="bi bi-link-45deg fs-4 text-brand"></i></div>
+              <p class="small mb-0">Register & Connect Exchange (API-key with limited perms)</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+              <div class="icon-pill mb-2"><i class="bi bi-wallet2 fs-4 text-brand"></i></div>
+              <p class="small mb-0">Fund Spot Wallet (you keep custody)</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+              <div class="icon-pill mb-2"><i class="bi bi-person-workspace fs-4 text-brand"></i></div>
+              <p class="small mb-0">Bot Trades Screened Pairs</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="p-3 bg-white rounded-2xl shadow-soft h-100">
+              <div class="icon-pill mb-2"><i class="bi bi-graph-up fs-4 text-brand"></i></div>
+              <p class="small mb-0">Reinvest & Grow (optional)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HALAL COINS -->
+<section id="coins" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Halal Coins</h2>
+      <p class="text-secondary">Example screened spot pairs (expandable):</p>
+    </div>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3 coins">
+      <!-- Use any set you actually screen; these are placeholders -->
+      <div class="col"><div class="coin text-center"><i class="bi bi-currency-bitcoin fs-3 text-brand"></i><div>BTC/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-gem fs-3 text-brand"></i><div>ETH/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-slash-circle fs-3 text-brand"></i><div>XRP/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-record-circle fs-3 text-brand"></i><div>SOL/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-shield-exclamation fs-3 text-brand"></i><div>BNB/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-link-45deg fs-3 text-brand"></i><div>LINK/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-stars fs-3 text-brand"></i><div>ADA/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-tornado fs-3 text-brand"></i><div>TRX/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-hexagon fs-3 text-brand"></i><div>DOT/USDT</div></div></div>
+      <div class="col"><div class="coin text-center"><i class="bi bi-bricks fs-3 text-brand"></i><div>ETC/USDT</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SAFETY & TRUST (comparison) -->
+<section id="safety" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Safety & Trust</h2>
+      <p class="text-secondary">Clear rules, transparent reporting, and a defense-first trading system.</p>
+    </div>
+
+    <div class="row g-4 comparison">
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-2xl shadow-soft h-100">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-shield-check text-brand fs-4"></i>
+            <h5 class="mb-0">5:1 Ratio Bot</h5>
+          </div>
+          <ul class="list-unstyled mb-0">
+            <li><i class="bi bi-check2 text-success me-2"></i> Shariah-minded screening of spot pairs</li>
+            <li><i class="bi bi-check2 text-success me-2"></i> Your funds stay in your own exchange</li>
+            <li><i class="bi bi-check2 text-success me-2"></i> Risk management & position sizing</li>
+            <li><i class="bi bi-check2 text-success me-2"></i> Transparent PnL & activity logs</li>
+            <li><i class="bi bi-check2 text-success me-2"></i> Simple setup & ongoing support</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-2xl shadow-soft h-100">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-x-octagon text-danger fs-4"></i>
+            <h5 class="mb-0">Typical Trading Bots</h5>
+          </div>
+          <ul class="list-unstyled mb-0">
+            <li><i class="bi bi-x text-danger me-2"></i> Complex settings & unclear risks</li>
+            <li><i class="bi bi-x text-danger me-2"></i> Custody risks & opaque permissions</li>
+            <li><i class="bi bi-x text-danger me-2"></i> Speculative pairs without screening</li>
+            <li><i class="bi bi-x text-danger me-2"></i> Limited guidance or accountability</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GROWTH & COMPOUND EFFECT -->
+<section id="growth" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold text-success">COMPOUND EFFECT</h2>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-2xl shadow-soft h-100">
+          <h5 class="mb-3 text-success">The Power of Compound Growth</h5>
+          <p class="text-secondary mb-4">The table on the right demonstrates the incredible power of <strong class="text-success">COMPOUND EFFECT</strong> to grow your wealth by reinvesting 80% of your profit. Our Bot handles this 24/7, No Sleep.</p>
+          
+          <div class="mb-4">
+            <h6 class="fw-semibold mb-2">How It Works:</h6>
+            <ul class="text-secondary small">
+              <li class="mb-2">Start with $1,000 initial capital</li>
+              <li class="mb-2">Earn 3% ROI each period</li>
+              <li class="mb-2">Keep 20% as cash flow for yourself</li>
+              <li class="mb-2">Reinvest 80% to compound growth</li>
+            </ul>
+          </div>
+
+          <div class="p-3 bg-light rounded">
+            <p class="mb-0 text-secondary small">The table on the right illustrates how the power of the <strong class="text-success">Compound Effect</strong> amplifies every aspect of our finances. Our personal finances, represented by cash flow, increase steadily. As a result, the amount we consistently reinvest grows, which in turn expands our overall investment capital.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-2xl shadow-soft h-100">
+          <h5 class="mb-3 text-center">Compound Effect Table</h5>
+          <table class="table table-bordered table-hover table-growth align-middle table-sm">
+            <thead class="table-success">
+              <tr>
+                <th>N</th>
+                <th>Investing Capital</th>
+                <th>3% ROI (Profit)</th>
+                <th>20% of Profits (Cash Flow for yourself)</th>
+                <th>80% of Profits (Reinvest)</th>
+                <th>Total Capital To be Reinvested</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>$1,000</td><td>$30</td><td>$6</td><td>$24</td><td>$1,024</td></tr>
+              <tr><td>2</td><td>$1,024</td><td>$30.72</td><td>$6.1</td><td>$24.5</td><td>$1,048.5</td></tr>
+              <tr><td>3</td><td>$1,048.5</td><td>$31.45</td><td>$6.29</td><td>$25.16</td><td>$1,073.16</td></tr>
+              <tr><td>4</td><td>$1,073.16</td><td>$32.19</td><td>$6.43</td><td>$25.75</td><td>$1,098.91</td></tr>
+              <tr><td>5</td><td>$1,098.91</td><td>$32.96</td><td>$6.638</td><td>$25.91</td><td>$1,124.82</td></tr>
+              <tr><td>6</td><td>$1,124.82</td><td>$33.74</td><td>$6.74</td><td>$26.99</td><td>$1,151.81</td></tr>
+              <tr><td>7</td><td>$1,151.81</td><td>$34.55</td><td>$6.91</td><td>$27.64</td><td>$1,179.45</td></tr>
+              <tr><td>8</td><td>$1,179.45</td><td>$35.38</td><td>$7.07</td><td>$28.30</td><td>$1,207.75</td></tr>
+              <tr><td>9</td><td>$1,207.75</td><td>$36.23</td><td>$7.24</td><td>$28.98</td><td>$1,236.73</td></tr>
+              <tr><td>10</td><td>$1,236.73</td><td>$37.10</td><td>$7.42</td><td>$29.68</td><td>$1,266.41</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPLIANCE & COMMUNITY -->
+<section id="community" class="py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Compliance & Community</h2>
+      <p class="text-secondary">Built to align with Islamic finance principles and to support users with clarity and care.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-2xl shadow-soft h-100">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-shield-lock text-brand fs-4"></i>
+            <h5 class="mb-0">Compliance & Security</h5>
+          </div>
+          <ul class="text-secondary mb-3">
+            <li>Screened spot pairs and non-interest based approach.</li>
+            <li>Exchange-side custody; revoke API at any time.</li>
+            <li>Data privacy and encryption best practices.</li>
+            <li>Clear documentation of methodology and controls.</li>
+          </ul>
+          <a href="#faq" class="link-success">Read our policy &raquo;</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="p-4 bg-white rounded-2xl shadow-soft h-100">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-people text-brand fs-4"></i>
+            <h5 class="mb-0">Community & Support</h5>
+          </div>
+          <ul class="text-secondary mb-3">
+            <li>Telegram & WhatsApp groups for quick help.</li>
+            <li>Weekly office hours and tutorials for new users.</li>
+            <li>Transparent performance updates & roadmap.</li>
+            <li>Volunteer opportunities and user council.</li>
+          </ul>
+          <div class="d-flex gap-2 mb-3">
+            <a class="btn btn-outline-success" href="https://t.me/Five5point1ratio" aria-label="Join Telegram" target="_blank"><i class="bi bi-telegram"></i> Join Telegram</a>
+            <a class="btn btn-outline-success" href="https://chat.whatsapp.com/Hcdq97aMdHyH0050PRKgH4" aria-label="Join WhatsApp Community" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp Community</a>
+          </div>
+          <div class="d-flex gap-2">
+            <a class="btn btn-outline-success btn-sm" href="https://whatsapp.com/channel/0029VbBTCqu6rsQlpK9TKG1M" aria-label="WhatsApp Channel" target="_blank"><i class="bi bi-whatsapp"></i> Channel</a>
+            <a class="btn btn-outline-success btn-sm" href="https://discord.gg/XzYsUWsn" aria-label="Join Discord" target="_blank"><i class="bi bi-discord"></i> Discord</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL MEDIA & COMMUNITY -->
+<section id="social" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Connect With Us</h2>
+      <p class="text-secondary">Join our community across all platforms for updates, insights, and support.</p>
+    </div>
+    
+    <div class="row g-3 justify-content-center">
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://linktr.ee/5Point1Ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-link-45deg fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Linktree</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://t.me/Five5point1ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-telegram fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Telegram</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://chat.whatsapp.com/Hcdq97aMdHyH0050PRKgH4" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-whatsapp fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">WhatsApp</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://discord.gg/XzYsUWsn" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-discord fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Discord</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://x.com/5point1ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-twitter-x fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Twitter (X)</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://facebook.com/5point1ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-facebook fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Facebook</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://www.instagram.com/5point1ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-instagram fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Instagram</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://www.tiktok.com/@5point1ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-tiktok fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">TikTok</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://www.linkedin.com/company/5point1ratio/" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-linkedin fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">LinkedIn</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://open.spotify.com/show/4bTIOhjGrJBhBN7cAIXEEV?si=3YkxrT3FQTe4i56YVpGc1w" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-spotify fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Spotify</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://www.youtube.com/@5point1ratio" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-youtube fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">YouTube</small>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <a href="https://5point1ratio.my.canva.site/" class="d-block text-center p-3 bg-white rounded-2xl shadow-soft h-100 text-decoration-none" target="_blank">
+          <i class="bi bi-globe fs-2 text-brand d-block mb-2"></i>
+          <small class="text-secondary">Canva Site</small>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Frequently Asked Questions</h2>
+      <p class="text-secondary">Short answers to common questions. Replace with your details.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="accordion" id="faqLeft">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q1"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">Is this Shariah-compliant?</button></h2>
+            <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faqLeft">
+              <div class="accordion-body">We focus on screened spot pairs, avoid interest-bearing instruments, and provide transparent rules. Include your certification/oversight details here.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q2"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">Do you hold my funds?</button></h2>
+            <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+              <div class="accordion-body">No. You keep custody on your exchange account. API keys use restricted permissions; you can revoke them anytime.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">What returns can I expect?</button></h2>
+            <div id="a3" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+              <div class="accordion-body">No guarantees. Share historical performance, methodologies, and risk disclosures here.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="accordion" id="faqRight">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q4"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4">Which exchanges are supported?</button></h2>
+            <div id="a4" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+              <div class="accordion-body">Example: Binance, KuCoin, etc. Confirm your list and any regional limitations.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q5"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5">How do fees work?</button></h2>
+            <div id="a5" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+              <div class="accordion-body">Explain bot subscription, performance fees (if any), and exchange trading fees.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q6"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a6">Can I stop anytime?</button></h2>
+            <div id="a6" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+              <div class="accordion-body">Yes—pause the bot and/or revoke the API key. Add steps here.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="py-5">
+  <div class="container">
+    <div class="p-4 p-lg-5 bg-white rounded-2xl shadow-soft">
+      <div class="row align-items-center gy-3">
+        <div class="col-lg-8">
+          <h3 class="fw-bold mb-2">Ready to start your halal trading journey?</h3>
+          <p class="text-secondary mb-0">Create your account, connect your exchange, and activate the bot in minutes.</p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="#" class="btn btn-brand btn-lg text-white">Create Account</a>
+          <a href="#how" class="btn btn-outline-success btn-lg ms-2">How it Works</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact" class="pt-5 pb-4 bg-dark text-white">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <h5 class="fw-semibold">5:1 Ratio</h5>
+        <p class="text-white-50">Halal, AI-assisted spot trading with a safety-first mindset.</p>
+        <div class="d-flex gap-3 fs-5">
+          <a class="text-white-50" href="https://t.me/Five5point1ratio" aria-label="Telegram" target="_blank"><i class="bi bi-telegram"></i></a>
+          <a class="text-white-50" href="https://chat.whatsapp.com/Hcdq97aMdHyH0050PRKgH4" aria-label="WhatsApp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <a class="text-white-50" href="https://x.com/5point1ratio" aria-label="Twitter (X)" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          <a class="text-white-50" href="https://www.youtube.com/@5point1ratio" aria-label="YouTube" target="_blank"><i class="bi bi-youtube"></i></a>
+          <a class="text-white-50" href="https://linktr.ee/5Point1Ratio" aria-label="Linktree" target="_blank"><i class="bi bi-link-45deg"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h6 class="text-uppercase small">Product</h6>
+        <ul class="list-unstyled text-white-50">
+          <li><a class="link-light link-underline-opacity-0" href="#about">Overview</a></li>
+          <li><a class="link-light link-underline-opacity-0" href="#how">How it Works</a></li>
+          <li><a class="link-light link-underline-opacity-0" href="#coins">Coins</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-3">
+        <h6 class="text-uppercase small">Company</h6>
+        <ul class="list-unstyled text-white-50">
+          <li><a class="link-light link-underline-opacity-0" href="#community">Community</a></li>
+          <li><a class="link-light link-underline-opacity-0" href="#social">Social Media</a></li>
+          <li><a class="link-light link-underline-opacity-0" href="https://www.payhip.com/5point1ratio" target="_blank">Old Website</a></li>
+          <li><a class="link-light link-underline-opacity-0" href="#">Legal & Compliance</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="text-uppercase small">Subscribe</h6>
+        <form class="row g-2" novalidate>
+          <div class="col-8">
+            <label class="visually-hidden" for="email">Email</label>
+            <input id="email" type="email" class="form-control" placeholder="you@email.com" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="col-4 d-grid">
+            <button class="btn btn-success" type="submit">Join</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr class="border-secondary my-4" />
+    <div class="small text-white-50">
+      <div>Disclaimer: Nothing here is financial advice. Crypto involves risk. Past performance does not guarantee future results.</div>
+      <div class="mt-2">&copy; <span id="year"></span> 5:1 Ratio. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // current year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // simple form validation
+  (() => {
+    const form = document.querySelector('footer form');
+    form.addEventListener('submit', e => {
+      if (!form.checkValidity()) { e.preventDefault(); e.stopPropagation(); }
+      form.classList.add('was-validated');
+    }, false);
+  })();
+
+  // highlight active nav link on scroll
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".navbar .nav-link");
+  const activate = () => {
+    let fromTop = window.scrollY + 110;
+    sections.forEach(sec => {
+      if (sec.offsetTop <= fromTop && (sec.offsetTop + sec.offsetHeight) > fromTop) {
+        navLinks.forEach(l => l.classList.remove("active"));
+        const active = document.querySelector('.navbar .nav-link[href="#'+sec.id+'"]');
+        if(active) active.classList.add("active");
+      }
+    });
+  };
+  window.addEventListener("scroll", activate);
+  activate();
+</script>
+</body>
+</html>
